@@ -1,0 +1,48 @@
+.feature-flag {
+  display: flex;
+  align-items: center;
+}
+
+.feature-flag--nested {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 3em;
+}
+
+.feature-flag-label {
+  flex: 1 1 auto;
+  margin-left: 2em;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  user-select: none;
+}
+
+.feature-flag-toggle-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 28px;
+
+  width: 1.4em;
+  height: 1.4em;
+  cursor: pointer;
+}
+
+.feature-flag-toggle-open__icon {
+  display: block;
+  width: 0.7em;
+  height: 0.7em;
+  background-color: #ffffff;
+}
+
+.feature-flag-toggle-open__icon--closed {
+  clip-path: polygon(20% 70%, 50% 40%, 80% 70%, 90% 60%, 50% 20%, 10% 60%);
+}
+
+.feature-flag-toggle-open__icon--open {
+  clip-path: polygon(20% 20%, 10% 30%, 50% 70%, 90% 30%, 80% 20%, 50% 50%);
+}

@@ -1,0 +1,22 @@
+.general-flags .feature-flag-section__blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.general-flags .feature-flag-block {
+  flex-grow: 1;
+  width: 32%;
+  height: 100%;
+}
+
+.three-columns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 16px;
+}
+
+.three-columns .feature-flag-section {
+  width: 33%;
+}
