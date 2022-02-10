@@ -1,6 +1,12 @@
 # Feature Flags Dashboard
 
+Base app is a slightly modified Typescript CRA.
+
 State of flags and value are stored in localstorage to mock state retention across refreshes.
+
+## Notes on Input Types
+
+At the moment only numeric input types have been implemented
 
 ## Notes on Layout
 
